@@ -6,7 +6,7 @@ DecoMetDIA was developed as an R package with Rcpp code. Compiling is needed whe
 
 The install can be done with ```install_github()```  method in devtools as following:
 ``` R
-devtools::install_github("ZhuMSLab/DecoMetDIA")
+devtools::install_github("SouraTR/DecoMetDIA")
 ```
 ## Reference
 Yin, Y., Wang, R., Cai, Y., Wang, Z. & Zhu, Z.-J. **DecoMetDIA: Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics**. *Anal. Chem*. 91, 11897–11904 (**2019**).

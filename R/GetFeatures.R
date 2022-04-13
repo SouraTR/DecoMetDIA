@@ -142,7 +142,6 @@ setMethod(
                              groupval(xset2, "medret", 'into')),
                        row.names = NULL)
       write.csv(pt, file = "PeakTable-raw.csv", row.names = T)
-      gc()
 
       cat(nrow(groupmat), "aligned features. \n")
 

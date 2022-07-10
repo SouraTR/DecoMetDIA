@@ -107,13 +107,14 @@ setMethod(
       }
 
       spec.exp.ext <- scan.ms2[idx.ms2.ext]
-      
+      ##added error handling
       if (length(idx.apex.ms1) == 0) {
         return(NULL)
       }
       if (idx.apex.ms1 > length(spec.exp.ext)) {
         return(NULL)
       }
+      ##added error handling
       
       spec.apex <- spec.exp.ext[[idx.apex.ms1]]
       idx.ms2.intfilter <- which(spec.apex[,2] >= int.filter &
